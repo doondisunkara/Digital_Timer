@@ -1,0 +1,75 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#ffffff, #cffcf1);
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  }
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (max-width: 767px) {
+  .content-container {
+    flex-direction: column;
+  }
+}
+
+.timer-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 400px;
+  height: 350px;
+  background-size: cover;
+}
+
+.timer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.timer-features-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.option-img {
+  height: 30px;
+  width: 30px;
+}

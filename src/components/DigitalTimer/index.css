@@ -50,12 +50,16 @@
 .timer-features-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
 }
 
 .controls-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .control {
@@ -72,4 +76,49 @@
 .option-img {
   height: 30px;
   width: 30px;
+}
+
+.interaction-text {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.set-limit-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.timer-limit-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.limit-value-container {
+  background-color: #00d9f5;
+  border: 0px solid;
+  border-radius: 8px;
+  padding: 10px 24px 10px 24px;
+}
+
+.limit-value {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 32px;
+  margin: 0px;
+}
+
+.set-button {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 46px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
 }
